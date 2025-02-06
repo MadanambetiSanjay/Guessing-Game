@@ -6,7 +6,7 @@ console.log(randomNumber);
 function checkGuess() {
     let gussesNumber = parseInt(userInput.value);
     if (gussesNumber > randomNumber) {
-        gameResult.textContent = ("Too High! Try Agian.");
+        gameResult.textContent = ("Too High! Try Agin.");
         gameResult.style.backgroundColor = "#1e217c";
     } else if (gussesNumber < randomNumber) {
         gameResult.textContent = ("Too Low! Try Agian.");
